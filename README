@@ -1,0 +1,17 @@
+LeafLabs DMX-Maple Project
+
+  created by Brian Tovar
+  with help from Rurik Primiani and Blake Rego
+  for LeafLabs Maple Native
+  created  11 Nov 2011
+
+
+DMX Shield Project Summary:
+
+This repository is an open hardware add-on for the maple native platform.
+It incorporates three hardware features into a single shield: first, the DMX
+physical layer protocol operates on RS-485 differential signaling; second,
+audio is played through an audio codec chip; and third, a source of recorded media is made available through an SD card slot.
+
+A demonstration sketch for the DMX protocol is available here: 
+https://github.com/leaflabs/projects/tree/master/dmx-512
