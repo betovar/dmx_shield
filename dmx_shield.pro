@@ -1,4 +1,4 @@
-update=Mon 14 Nov 2011 10:23:17 AM EST
+update=Mon 14 Nov 2011 11:59:24 AM EST
 last_client=pcbnew
 [eeschema]
 version=1
@@ -114,4 +114,16 @@ WpenSer=10
 [pcbnew/libraries]
 LibDir=
 LibName1=./dmx
-LibName2=/home/betovar/Git/hardware-lib/leaf
+LibName2=connect
+LibName3=dip_sockets
+LibName4=discret
+LibName5=display
+LibName6=divers
+LibName7=iut
+LibName8=led
+LibName9=libcms
+LibName10=muonde
+LibName11=pin_array
+LibName12=sockets
+LibName13=valves
+LibName14=/home/betovar/Git/hardware-lib/leaf
