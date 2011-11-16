@@ -15,15 +15,18 @@ audio is played through an audio codec chip; and third, a source of recorded med
 
 A demonstration sketch for the DMX protocol is available here: 
 https://github.com/leaflabs/projects/tree/master/dmx-512
+with other examples to be committed later
 
 
 Shield Features:
 
--- SD / microSD card slot
--- line_in jack (with breakouts)
--- headphone_out jack (with breakouts)
+-- SD / microSD card slot (choice of either)
+-- line_in jack (with alternate breakouts)
+-- headphone_out jack (with alternate breakouts)
 -- mic bias tuning knob
--- input channel swap switch
--- three general purpose buttons (one with breakout)
--- three general purpose knobs (one dual-pot for balance control)
--- RJ45 DMX driver/receiver
+-- solder jumper for electric micphone configuration
+-- input and output channel swap switches
+-- four general purpose buttons (one with breakout)
+-- three general purpose knobs (one for digital volume control)
+-- DMX driver/receiver (using RJ45 connector)
+-- power LED and two general purpose LEDs

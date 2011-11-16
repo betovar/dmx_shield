@@ -1,5 +1,5 @@
-update=Mon 14 Nov 2011 11:59:24 AM EST
-last_client=pcbnew
+update=Tue 15 Nov 2011 08:51:14 AM EST
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=
@@ -71,11 +71,6 @@ RootSch=
 BoardNm=
 [common]
 NetDir=
-[cvpcb]
-version=1
-NetIExt=.net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=0
@@ -114,16 +109,8 @@ WpenSer=10
 [pcbnew/libraries]
 LibDir=
 LibName1=./dmx
-LibName2=connect
-LibName3=dip_sockets
-LibName4=discret
-LibName5=display
-LibName6=divers
-LibName7=iut
-LibName8=led
-LibName9=libcms
-LibName10=muonde
-LibName11=pin_array
-LibName12=sockets
-LibName13=valves
-LibName14=/home/betovar/Git/hardware-lib/leaf
+[cvpcb]
+version=1
+NetIExt=.net
+[cvpcb/libraries]
+EquName1=devcms
