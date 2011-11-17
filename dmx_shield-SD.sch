@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 16 Nov 2011 09:16:51 PM EST
+EESchema Schematic File Version 2  date Thu 17 Nov 2011 05:55:08 AM EST
 LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./dmx_shield.cache
 EELAYER 24  0
 EELAYER END
@@ -105,28 +105,28 @@ $EndComp
 NoConn ~ 7350 3800
 NoConn ~ 7350 3100
 $Comp
-L +3.3V #PWR022
+L +3.3V #PWR021
 U 1 1 4EC1213E
 P 6700 3400
-F 0 "#PWR022" H 6700 3360 30  0001 C CNN
+F 0 "#PWR021" H 6700 3360 30  0001 C CNN
 F 1 "+3.3V" H 6700 3510 30  0000 C CNN
 	1    6700 3400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR023
+L GND #PWR022
 U 1 1 4EC12126
 P 6650 4000
-F 0 "#PWR023" H 6650 4000 30  0001 C CNN
+F 0 "#PWR022" H 6650 4000 30  0001 C CNN
 F 1 "GND" H 6650 3930 30  0001 C CNN
 	1    6650 4000
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR024
+L GND #PWR023
 U 1 1 4EC1211F
 P 6650 3600
-F 0 "#PWR024" H 6650 3600 30  0001 C CNN
+F 0 "#PWR023" H 6650 3600 30  0001 C CNN
 F 1 "GND" H 6650 3530 30  0001 C CNN
 	1    6650 3600
 	0    1    1    0   
@@ -134,37 +134,37 @@ $EndComp
 NoConn ~ 3500 3650
 NoConn ~ 3500 3750
 $Comp
-L GND #PWR025
+L GND #PWR024
 U 1 1 4EBD0DE2
 P 3900 4250
-F 0 "#PWR025" H 3900 4250 30  0001 C CNN
+F 0 "#PWR024" H 3900 4250 30  0001 C CNN
 F 1 "GND" H 3900 4180 30  0001 C CNN
 	1    3900 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR026
+L +3.3V #PWR025
 U 1 1 4EBCFE82
 P 4150 3250
-F 0 "#PWR026" H 4150 3210 30  0001 C CNN
+F 0 "#PWR025" H 4150 3210 30  0001 C CNN
 F 1 "+3.3V" H 4150 3360 30  0000 C CNN
 	1    4150 3250
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR027
+L GND #PWR026
 U 1 1 4EBCFE63
 P 4150 3150
-F 0 "#PWR027" H 4150 3150 30  0001 C CNN
+F 0 "#PWR026" H 4150 3150 30  0001 C CNN
 F 1 "GND" H 4150 3080 30  0001 C CNN
 	1    4150 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR028
+L GND #PWR027
 U 1 1 4EBCFE53
 P 4150 3450
-F 0 "#PWR028" H 4150 3450 30  0001 C CNN
+F 0 "#PWR027" H 4150 3450 30  0001 C CNN
 F 1 "GND" H 4150 3380 30  0001 C CNN
 	1    4150 3450
 	0    -1   -1   0   
