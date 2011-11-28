@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 28 Nov 2011 01:24:31 AM EST
+EESchema Schematic File Version 2  date Mon 28 Nov 2011 04:56:32 AM EST
 LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./dmx_shield.cache
 EELAYER 24  0
 EELAYER END
@@ -14,53 +14,57 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3500 3450 4150 3450
-Wire Wire Line
-	3500 3250 4150 3250
-Wire Wire Line
-	7050 3500 7350 3500
-Wire Wire Line
-	7050 3200 7350 3200
-Wire Wire Line
-	7100 4200 7350 4200
-Connection ~ 7250 4200
-Wire Wire Line
-	7250 4200 7250 4100
-Wire Wire Line
-	7250 4100 7350 4100
-Wire Wire Line
 	3500 3950 3600 3950
 Wire Wire Line
-	3500 3550 3600 3550
-Wire Wire Line
-	3500 3050 3600 3050
-Wire Wire Line
-	6650 4000 7350 4000
-Wire Wire Line
-	6700 3400 7350 3400
-Wire Wire Line
-	6650 3600 7350 3600
-Wire Wire Line
-	3500 4150 3900 4150
-Wire Wire Line
-	3900 4150 3900 4250
-Wire Wire Line
-	3500 2950 3600 2950
-Wire Wire Line
-	3500 3350 3600 3350
-Wire Wire Line
-	3500 3850 3600 3850
-Wire Wire Line
-	7350 3900 7250 3900
-Wire Wire Line
-	7250 3900 7250 4000
-Connection ~ 7250 4000
-Wire Wire Line
-	7200 3700 7350 3700
+	3500 3150 4150 3150
 Wire Wire Line
 	7200 3300 7350 3300
 Wire Wire Line
-	3500 3150 4150 3150
+	7200 3700 7350 3700
+Connection ~ 7250 4000
+Wire Wire Line
+	7250 4000 7250 3900
+Wire Wire Line
+	7250 3900 7350 3900
+Wire Wire Line
+	3500 3850 3600 3850
+Wire Wire Line
+	3500 3350 3600 3350
+Wire Wire Line
+	3500 2950 3600 2950
+Wire Wire Line
+	3900 4250 3900 4150
+Wire Wire Line
+	3900 4150 3500 4150
+Wire Wire Line
+	6650 3600 7350 3600
+Wire Wire Line
+	6700 3400 7350 3400
+Wire Wire Line
+	6650 4000 7350 4000
+Wire Wire Line
+	3500 3050 3600 3050
+Wire Wire Line
+	3500 3550 3600 3550
+Wire Wire Line
+	3500 4050 3600 4050
+Wire Wire Line
+	7350 4100 7250 4100
+Wire Wire Line
+	7250 4100 7250 4200
+Connection ~ 7250 4200
+Wire Wire Line
+	7100 4200 7350 4200
+Wire Wire Line
+	7050 3200 7350 3200
+Wire Wire Line
+	7050 3500 7350 3500
+Wire Wire Line
+	3500 3250 4150 3250
+Wire Wire Line
+	3500 3450 4150 3450
+Text GLabel 3600 3950 2    60   Input ~ 0
+SD-COM
 Text GLabel 7050 3200 0    60   Input ~ 0
 SD-SS
 Text GLabel 7200 3300 0    60   Input ~ 0
@@ -80,7 +84,7 @@ F 1 "microSD" V 8350 3650 60  0000 C CNN
 $EndComp
 Text GLabel 7100 4200 0    60   Input ~ 0
 SD-CD
-Text GLabel 3600 3950 2    60   Input ~ 0
+Text GLabel 3600 4050 2    60   Input ~ 0
 SD-WP
 Text GLabel 3600 3850 2    60   Input ~ 0
 SD-CD
@@ -92,7 +96,6 @@ Text GLabel 3600 3050 2    60   Input ~ 0
 SD-MOSI
 Text GLabel 3600 2950 2    60   Input ~ 0
 SD-SS
-NoConn ~ 3500 4050
 $Comp
 L SD SD2
 U 1 1 4EC12409
