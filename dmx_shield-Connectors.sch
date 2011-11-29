@@ -1,5 +1,5 @@
-EESchema Schematic File Version 2  date Tue 29 Nov 2011 03:20:30 AM EST
-LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./dmx_shield.cache
+EESchema Schematic File Version 2  date Tue 29 Nov 2011 01:54:40 PM EST
+LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
@@ -711,19 +711,19 @@ F 1 "GND" H 3100 2980 30  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R21
+L R R22
 U 1 1 4EC4533E
 P 4000 3200
-F 0 "R21" V 4080 3200 50  0000 C CNN
+F 0 "R22" V 4080 3200 50  0000 C CNN
 F 1 "5k6" V 4000 3200 50  0000 C CNN
 	1    4000 3200
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R19
+L R R20
 U 1 1 4EC4533D
 P 3300 3200
-F 0 "R19" V 3380 3200 50  0000 C CNN
+F 0 "R20" V 3380 3200 50  0000 C CNN
 F 1 "5k6" V 3300 3200 50  0000 C CNN
 	1    3300 3200
 	0    1    -1   0   
@@ -756,19 +756,19 @@ F 1 "GND" H 3350 4030 30  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R22
+L R R23
 U 1 1 4EC4532C
 P 4250 4250
-F 0 "R22" V 4330 4250 50  0000 C CNN
+F 0 "R23" V 4330 4250 50  0000 C CNN
 F 1 "5k6" V 4250 4250 50  0000 C CNN
 	1    4250 4250
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R20
+L R R21
 U 1 1 4EC4532B
 P 3550 4250
-F 0 "R20" V 3630 4250 50  0000 C CNN
+F 0 "R21" V 3630 4250 50  0000 C CNN
 F 1 "5k6" V 3550 4250 50  0000 C CNN
 	1    3550 4250
 	0    1    -1   0   
@@ -926,19 +926,19 @@ F 1 "GND" H 8650 3030 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R23
+L R R24
 U 1 1 4EC369C0
 P 7750 3250
-F 0 "R23" V 7830 3250 50  0000 C CNN
+F 0 "R24" V 7830 3250 50  0000 C CNN
 F 1 "5k6" V 7750 3250 50  0000 C CNN
 	1    7750 3250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R24
+L R R25
 U 1 1 4EC369BF
 P 8450 3250
-F 0 "R24" V 8530 3250 50  0000 C CNN
+F 0 "R25" V 8530 3250 50  0000 C CNN
 F 1 "5k6" V 8450 3250 50  0000 C CNN
 	1    8450 3250
 	0    -1   -1   0   

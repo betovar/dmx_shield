@@ -1,5 +1,5 @@
-update=Tue 15 Nov 2011 08:51:14 AM EST
-last_client=cvpcb
+update=Tue 29 Nov 2011 01:34:41 PM EST
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=
@@ -71,11 +71,16 @@ RootSch=
 BoardNm=
 [common]
 NetDir=
+[cvpcb]
+version=1
+NetIExt=.net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=0
-PadDimH=945
-PadDimV=886
+PadDimH=118
+PadDimV=157
 ViaDiam=450
 ViaDril=250
 ViaAltD=250
@@ -109,8 +114,3 @@ WpenSer=10
 [pcbnew/libraries]
 LibDir=
 LibName1=./dmx
-[cvpcb]
-version=1
-NetIExt=.net
-[cvpcb/libraries]
-EquName1=devcms
