@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date Tue 29 Nov 2011 01:54:40 PM EST
-LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves
+EESchema Schematic File Version 2  date Mon 12 Dec 2011 01:24:59 PM EST
+LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./dmx_shield.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 4 4
+Sheet 4 5
 Title ""
-Date "29 nov 2011"
+Date "12 dec 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -693,10 +693,10 @@ F 1 "GND" H 7050 3530 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C C8
 U 1 1 4EC45341
 P 4350 3400
-F 0 "C6" H 4400 3500 50  0000 L CNN
+F 0 "C8" H 4400 3500 50  0000 L CNN
 F 1 "220pF" H 4400 3300 50  0000 L CNN
 	1    4350 3400
 	0    1    1    0   
@@ -738,10 +738,10 @@ F 1 "10k" H 3650 2900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C7
+L C C9
 U 1 1 4EC4532F
 P 4600 4450
-F 0 "C7" H 4650 4550 50  0000 L CNN
+F 0 "C9" H 4650 4550 50  0000 L CNN
 F 1 "220pF" H 4650 4350 50  0000 L CNN
 	1    4600 4450
 	0    1    1    0   
@@ -908,10 +908,10 @@ F 1 "BUT" V 3250 2200 40  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L C C8
+L C C10
 U 1 1 4EC369C3
 P 7400 3450
-F 0 "C8" H 7450 3550 50  0000 L CNN
+F 0 "C10" H 7450 3550 50  0000 L CNN
 F 1 "220pF" H 7450 3350 50  0000 L CNN
 	1    7400 3450
 	0    -1   1    0   

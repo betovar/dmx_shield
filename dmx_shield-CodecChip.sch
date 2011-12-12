@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date Tue 29 Nov 2011 01:54:40 PM EST
-LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves
+EESchema Schematic File Version 2  date Mon 12 Dec 2011 01:24:59 PM EST
+LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./dmx_shield.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 2 4
+Sheet 2 5
 Title ""
-Date "29 nov 2011"
+Date "12 dec 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -13,6 +13,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L WM8731 U4
+U 1 1 4EE63928
+P 6450 4050
+F 0 "U4" H 5850 6100 60  0000 C CNN
+F 1 "WM8731" H 6450 4050 60  0000 C CNN
+	1    6450 4050
+	1    0    0    -1  
+$EndComp
 Connection ~ 6300 5650
 Connection ~ 6300 5900
 Connection ~ 6800 5650
@@ -439,7 +448,7 @@ L C C2
 U 1 1 4EBCC549
 P 5050 2100
 F 0 "C2" H 5100 2200 50  0000 L CNN
-F 1 "0.1uF" H 5100 2000 50  0000 L CNN
+F 1 "100pF" H 5100 2000 50  0000 L CNN
 	1    5050 2100
 	1    0    0    -1  
 $EndComp
@@ -462,20 +471,20 @@ F 1 "GND" H 6300 6630 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C13
+L C C7
 U 1 1 4EBC045B
 P 6800 6300
-F 0 "C13" H 6850 6400 50  0000 L CNN
-F 1 "220pF" H 6850 6200 50  0000 L CNN
+F 0 "C7" H 6850 6400 50  0000 L CNN
+F 1 "10pF" H 6850 6200 50  0000 L CNN
 	1    6800 6300
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L C C6
 U 1 1 4EBC0455
 P 6300 6300
-F 0 "C12" H 6350 6400 50  0000 L CNN
-F 1 "220pF" H 6350 6200 50  0000 L CNN
+F 0 "C6" H 6350 6400 50  0000 L CNN
+F 1 "10pF" H 6350 6200 50  0000 L CNN
 	1    6300 6300
 	-1   0    0    -1  
 $EndComp
@@ -507,10 +516,10 @@ F 1 "5k6" V 2950 2950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C10
+L C C12
 U 1 1 4EBBFFF0
 P 3150 2900
-F 0 "C10" H 3200 3000 50  0000 L CNN
+F 0 "C12" H 3200 3000 50  0000 L CNN
 F 1 "220pF" H 3200 2800 50  0000 L CNN
 	1    3150 2900
 	1    0    0    -1  
@@ -552,10 +561,10 @@ F 1 "5k6" V 4000 3350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C11
+L C C13
 U 1 1 4EBBFFA6
 P 4200 3300
-F 0 "C11" H 4250 3400 50  0000 L CNN
+F 0 "C13" H 4250 3400 50  0000 L CNN
 F 1 "220pF" H 4250 3200 50  0000 L CNN
 	1    4200 3300
 	1    0    0    -1  
@@ -588,10 +597,10 @@ F 1 "47k" V 2750 4350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C9
+L C C11
 U 1 1 4EBBFF31
 P 2950 4300
-F 0 "C9" H 3000 4400 50  0000 L CNN
+F 0 "C11" H 3000 4400 50  0000 L CNN
 F 1 "220pF" H 3000 4200 50  0000 L CNN
 	1    2950 4300
 	1    0    0    -1  
@@ -667,15 +676,6 @@ F 0 "R17" V 8330 3700 50  0000 C CNN
 F 1 "47k" V 8250 3700 50  0000 C CNN
 	1    8250 3700
 	0    1    -1   0   
-$EndComp
-$Comp
-L WM8731 WM1
-U 1 1 4E8AA4B8
-P 6450 4050
-F 0 "WM1" H 6450 5250 60  0000 C CNN
-F 1 "WM8731" H 6450 4050 60  0000 C CNN
-	1    6450 4050
-	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR013
@@ -781,7 +781,7 @@ L C C4
 U 1 1 4EBBCBD4
 P 8150 2800
 F 0 "C4" H 8200 2900 50  0000 L CNN
-F 1 "0.1uF" H 8200 2700 50  0000 L CNN
+F 1 "100pF" H 8200 2700 50  0000 L CNN
 	1    8150 2800
 	1    0    0    -1  
 $EndComp
@@ -790,7 +790,7 @@ L C C3
 U 1 1 4EBBCBB0
 P 8150 2200
 F 0 "C3" H 8200 2300 50  0000 L CNN
-F 1 "0.1uF" H 8200 2100 50  0000 L CNN
+F 1 "100pF" H 8200 2100 50  0000 L CNN
 	1    8150 2200
 	1    0    0    -1  
 $EndComp
@@ -808,7 +808,7 @@ L C C5
 U 1 1 4EBBC9A7
 P 8350 4850
 F 0 "C5" H 8400 4950 50  0000 L CNN
-F 1 "0.1uF" H 8400 4750 50  0000 L CNN
+F 1 "100pF" H 8400 4750 50  0000 L CNN
 	1    8350 4850
 	1    0    0    -1  
 $EndComp
@@ -817,7 +817,7 @@ L C C1
 U 1 1 4EBBC6A9
 P 4250 2200
 F 0 "C1" H 4300 2300 50  0000 L CNN
-F 1 "0.1uF" H 4300 2100 50  0000 L CNN
+F 1 "100pF" H 4300 2100 50  0000 L CNN
 	1    4250 2200
 	-1   0    0    1   
 $EndComp

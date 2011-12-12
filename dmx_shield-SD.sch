@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date Tue 29 Nov 2011 01:54:40 PM EST
-LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves
+EESchema Schematic File Version 2  date Mon 12 Dec 2011 01:24:59 PM EST
+LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./dmx_shield.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 3 4
+Sheet 3 5
 Title ""
-Date "29 nov 2011"
+Date "12 dec 2011"
 Rev ""
 Comp ""
 Comment1 ""
