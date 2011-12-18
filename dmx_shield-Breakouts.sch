@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date Mon 12 Dec 2011 07:08:49 PM EST
+EESchema Schematic File Version 2  date Sun 18 Dec 2011 01:37:07 AM EST
 LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./dmx_shield.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 2 5
 Title ""
-Date "12 dec 2011"
+Date "18 dec 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -198,10 +198,10 @@ F 1 "GND" H 3000 4230 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_6 P2
+L CONN_6 P1
 U 1 1 4EE67008
 P 7600 4500
-F 0 "P2" H 7600 4850 60  0000 C CNN
+F 0 "P1" H 7600 4850 60  0000 C CNN
 F 1 "BREAKOUT_1" V 7600 4500 60  0000 C CNN
 	1    7600 4500
 	0    -1   1    0   
@@ -243,10 +243,10 @@ F 1 "GYRO" V 9100 900 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_16 P1
+L CONN_16 P2
 U 1 1 4EE65876
 P 9100 4500
-F 0 "P1" H 9100 5350 60  0000 C CNN
+F 0 "P2" H 9100 5350 60  0000 C CNN
 F 1 "BREAKOUT_2" V 9100 4500 60  0000 C CNN
 	1    9100 4500
 	0    1    1    0   
