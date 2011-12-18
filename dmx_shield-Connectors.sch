@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 18 Dec 2011 01:37:07 AM EST
+EESchema Schematic File Version 2  date Sun 18 Dec 2011 04:18:58 AM EST
 LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./dmx_shield.cache
 EELAYER 24  0
 EELAYER END
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	9900 2450 8300 2450
+	10600 2450 8300 2450
 Wire Wire Line
 	8300 2450 8300 2900
 Wire Wire Line
@@ -447,7 +447,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 5750 4500 5750
 Wire Wire Line
-	9900 2350 7850 2350
+	10600 2350 7850 2350
 $Comp
 L JMP2 JP2
 U 1 1 4EED811A
