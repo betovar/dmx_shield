@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date Sun 18 Dec 2011 04:18:58 AM EST
+EESchema Schematic File Version 2  date Thu 22 Dec 2011 09:26:28 PM EST
 LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./dmx_shield.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 5 5
+Sheet 9 9
 Title ""
-Date "18 dec 2011"
+Date "21 dec 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -458,10 +458,10 @@ F 1 "BRK" H 2450 5601 40  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_6 P12
+L CONN_6 P13
 U 1 1 4EED7639
 P 1000 1350
-F 0 "P12" H 1000 1700 60  0000 C CNN
+F 0 "P13" H 1000 1700 60  0000 C CNN
 F 1 "POWER" V 1000 1350 60  0000 C CNN
 	1    1000 1350
 	-1   0    0    -1  
@@ -476,73 +476,73 @@ F 1 "100" V 2900 5850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_2 P14
+L CONN_2 P15
 U 1 1 4EE65FD1
 P 6300 1200
-F 0 "P14" H 6300 1400 40  0000 C CNN
+F 0 "P15" H 6300 1400 40  0000 C CNN
 F 1 "R_OUT" V 6300 1200 40  0000 C CNN
 	1    6300 1200
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_2 P11
+L CONN_2 P12
 U 1 1 4EE65FCE
 P 6300 900
-F 0 "P11" H 6300 1100 40  0000 C CNN
+F 0 "P12" H 6300 1100 40  0000 C CNN
 F 1 "L_OUT" V 6300 900 40  0000 C CNN
 	1    6300 900 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P13
+L CONN_2 P14
 U 1 1 4EE65FCC
 P 5600 1200
-F 0 "P13" H 5600 1400 40  0000 C CNN
+F 0 "P14" H 5600 1400 40  0000 C CNN
 F 1 "R_IN" V 5600 1200 40  0000 C CNN
 	1    5600 1200
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_2 P10
+L CONN_2 P11
 U 1 1 4EE65FC9
 P 5600 900
-F 0 "P10" H 5600 1100 40  0000 C CNN
+F 0 "P11" H 5600 1100 40  0000 C CNN
 F 1 "L_IN" V 5600 900 40  0000 C CNN
 	1    5600 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_25 P8
+L CONN_25 P9
 U 1 1 4EE65F92
 P 1400 5150
-F 0 "P8" H 1400 6450 60  0000 C CNN
+F 0 "P9" H 1400 6450 60  0000 C CNN
 F 1 "DMX_TOP_SHIELD" V 1400 5150 60  0000 C CNN
 	1    1400 5150
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_25 P7
+L CONN_25 P8
 U 1 1 4EE65F8C
 P 700 5150
-F 0 "P7" H 700 6450 60  0000 C CNN
+F 0 "P8" H 700 6450 60  0000 C CNN
 F 1 "DMX_TOP_BREAKOUT" V 700 5150 60  0000 C CNN
 	1    700  5150
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_25 P5
+L CONN_25 P6
 U 1 1 4EE65F5F
 P 10950 2350
-F 0 "P5" H 10950 3650 60  0000 C CNN
+F 0 "P6" H 10950 3650 60  0000 C CNN
 F 1 "DMX_BOT_BREAKOUT" V 10950 2350 60  0000 C CNN
 	1    10950 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_25 P6
+L CONN_25 P7
 U 1 1 4EE65F4F
 P 10250 2350
-F 0 "P6" H 10250 3650 60  0000 C CNN
+F 0 "P7" H 10250 3650 60  0000 C CNN
 F 1 "DMX_BOT_SHIELD" V 10250 2350 60  0000 C CNN
 	1    10250 2350
 	1    0    0    -1  
@@ -991,10 +991,10 @@ CHAN-IN1
 Text GLabel 4350 1200 2    60   Input ~ 0
 CHAN-IN2
 $Comp
-L CONN_2 P4
+L CONN_2 P1
 U 1 1 4EC39516
 P 4050 2900
-F 0 "P4" V 4000 2900 40  0000 C CNN
+F 0 "P1" V 4000 2900 40  0000 C CNN
 F 1 "BUT" V 4100 2900 40  0000 C CNN
 	1    4050 2900
 	1    0    0    1   

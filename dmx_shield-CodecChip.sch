@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date Sun 18 Dec 2011 04:18:58 AM EST
+EESchema Schematic File Version 2  date Thu 22 Dec 2011 09:26:28 PM EST
 LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./dmx_shield.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 3 5
+Sheet 7 9
 Title ""
-Date "18 dec 2011"
+Date "21 dec 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -244,10 +244,10 @@ Connection ~ 6800 5650
 Connection ~ 6300 5900
 Connection ~ 6300 5650
 $Comp
-L WM8731 U5
+L WM8731 U8
 U 1 1 4EE63928
 P 6450 4050
-F 0 "U5" H 5850 6100 60  0000 C CNN
+F 0 "U8" H 5850 6100 60  0000 C CNN
 F 1 "WM8731" H 6450 4050 60  0000 C CNN
 	1    6450 4050
 	1    0    0    -1  
@@ -300,19 +300,19 @@ F 1 "BIAS" H 5150 3351 40  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DP3T U4
+L DP3T U7
 U 1 1 4EC3378B
 P 9850 3550
-F 0 "U4" H 9700 4000 60  0000 C CNN
+F 0 "U7" H 9700 4000 60  0000 C CNN
 F 1 "SW_OUT" H 9850 3550 60  0000 C CNN
 	1    9850 3550
 	1    0    0    1   
 $EndComp
 $Comp
-L DP3T U3
+L DP3T U6
 U 1 1 4EC33616
 P 1800 3000
-F 0 "U3" H 1650 3450 60  0000 C CNN
+F 0 "U6" H 1650 3450 60  0000 C CNN
 F 1 "SW_IN" H 1800 3000 60  0000 C CNN
 	1    1800 3000
 	-1   0    0    -1  
