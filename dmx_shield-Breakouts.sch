@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date Thu 22 Dec 2011 09:26:28 PM EST
+EESchema Schematic File Version 2  date Thu 22 Dec 2011 11:44:12 PM EST
 LIBS:power,./dmx,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./dmx_shield.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 2 9
+Sheet 2 10
 Title ""
-Date "21 dec 2011"
+Date "23 dec 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -13,38 +13,44 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1900 4050 2    60   BiDi ~ 0
-078
-Text GLabel 1900 3950 2    60   BiDi ~ 0
-080
-Text GLabel 1900 3850 2    60   BiDi ~ 0
-082
-Text GLabel 1900 3750 2    60   BiDi ~ 0
-084
-Text GLabel 1900 3650 2    60   BiDi ~ 0
-086
-Text GLabel 1900 3550 2    60   BiDi ~ 0
-088
-Text GLabel 1900 3450 2    60   BiDi ~ 0
-090
-Text GLabel 1900 3350 2    60   BiDi ~ 0
+$Sheet
+S 3250 3550 1500 1300
+U 4EF3E884
+F0 "Bluetooth" 60
+F1 "dmx_shield-Breakouts-Bluetooth.sch" 60
+$EndSheet
+Text GLabel 1650 3050 2    60   BiDi ~ 0
+130
+Text GLabel 1650 2950 2    60   BiDi ~ 0
+128
+Text GLabel 1650 2850 2    60   BiDi ~ 0
+126
+Text GLabel 1650 2750 2    60   BiDi ~ 0
+124
+Text GLabel 1650 2650 2    60   BiDi ~ 0
+094
+Text GLabel 1650 2550 2    60   BiDi ~ 0
 092
-Text GLabel 1900 3250 2    60   BiDi ~ 0
-006
-Text GLabel 1900 3150 2    60   BiDi ~ 0
-008
-Text GLabel 1900 3050 2    60   BiDi ~ 0
-010
-Text GLabel 1900 2950 2    60   BiDi ~ 0
-012
-Text GLabel 1900 2850 2    60   BiDi ~ 0
-014
-Text GLabel 1900 2750 2    60   BiDi ~ 0
-016
-Text GLabel 1900 2650 2    60   BiDi ~ 0
-018
-Text GLabel 1900 2550 2    60   BiDi ~ 0
+Text GLabel 1650 2450 2    60   BiDi ~ 0
+090
+Text GLabel 1650 2350 2    60   BiDi ~ 0
+088
+Text GLabel 1650 2250 2    60   BiDi ~ 0
+058
+Text GLabel 1650 2150 2    60   BiDi ~ 0
+056
+Text GLabel 1650 2050 2    60   BiDi ~ 0
+054
+Text GLabel 1650 1950 2    60   BiDi ~ 0
+052
+Text GLabel 1650 1850 2    60   BiDi ~ 0
+022
+Text GLabel 1650 1750 2    60   BiDi ~ 0
 020
+Text GLabel 1650 1650 2    60   BiDi ~ 0
+018
+Text GLabel 1650 1550 2    60   BiDi ~ 0
+016
 Text GLabel 9300 3150 0    60   BiDi ~ 0
 143
 Text GLabel 9300 3050 0    60   BiDi ~ 0
@@ -190,19 +196,19 @@ Text GLabel 6600 1500 2    60   BiDi ~ 0
 Text GLabel 6600 1400 2    60   BiDi ~ 0
 038
 $Sheet
-S 5550 4450 1500 1400
+S 5850 5350 1500 1400
 U 4EF1BC51
 F0 "LQFP100" 60
 F1 "dmx_shield-Breakouts-LQFP100.sch" 60
 $EndSheet
 $Sheet
-S 8000 4100 1650 1400
+S 8100 4700 1650 1400
 U 4EF1AF5B
 F0 "LQFP144" 60
 F1 "dmx_shield-Breakouts-LQFP144.sch" 60
 $EndSheet
 $Sheet
-S 3150 4900 1550 1400
+S 3600 5900 1550 1400
 U 4EF1A083
 F0 "LQFP064" 60
 F1 "dmx_shield-Breakouts-LQFP064.sch" 60
@@ -388,42 +394,18 @@ F 1 "CONN_1" V 4350 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1050 5250 1550 1450
+S 1100 3900 1550 1450
 U 4EF18715
 F0 "MP3" 60
 F1 "dmx_shield-Breakouts-MP3.sch" 60
 $EndSheet
-Wire Wire Line
-	2200 1600 1700 1600
-Wire Wire Line
-	1700 1700 2200 1700
-Wire Wire Line
-	1700 1500 2200 1500
-$Comp
-L CONN_3 P16
-U 1 1 4EE6591A
-P 1350 1600
-F 0 "P16" H 1350 1800 50  0000 C CNN
-F 1 "USART1" V 1350 1600 40  0000 C CNN
-	1    1350 1600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_3 P17
-U 1 1 4EE65917
-P 2550 1600
-F 0 "P17" H 2550 1800 50  0000 C CNN
-F 1 "USART1B" V 2550 1600 40  0000 C CNN
-	1    2550 1600
-	1    0    0    -1  
-$EndComp
 $Comp
 L CONN_16 P10
 U 1 1 4EE65879
-P 1550 3300
-F 0 "P10" H 1550 4150 60  0000 C CNN
-F 1 "GYRO" V 1550 3300 60  0000 C CNN
-	1    1550 3300
+P 1300 2300
+F 0 "P10" H 1300 3150 60  0000 C CNN
+F 1 "GYRO" V 1300 2300 60  0000 C CNN
+	1    1300 2300
 	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
