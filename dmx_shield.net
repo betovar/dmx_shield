@@ -1,31 +1,31 @@
-# EESchema Netlist Version 1.1 created  Thu 08 Mar 2012 01:40:35 AM EST
+# EESchema Netlist Version 1.1 created  Thu 08 Mar 2012 07:30:19 AM EST
 (
  ( /4EC40B2A/4EC33AD5 $noname  JP1 BIAS {Lib=JMP2}
-  (    1 N-000099 )
-  (    2 N-000096 )
+  (    1 N-000110 )
+  (    2 N-000112 )
  )
  ( /4EC40B2A/4EC3378B $noname  U3 SW_OUT {Lib=DP3T}
-  (    1 N-000097 )
-  (    2 N-000098 )
+  (    1 N-000108 )
+  (    2 N-000111 )
   (    3 N-000036 )
-  (    4 N-000094 )
-  (    5 N-000109 )
-  (    6 N-000094 )
+  (    4 N-000099 )
+  (    5 N-000098 )
+  (    6 N-000099 )
   (    7 N-000041 )
-  (    8 N-000098 )
+  (    8 N-000111 )
  )
  ( /4EC40B2A/4EC33616 $noname  U2 SW_IN {Lib=DP3T}
-  (    1 N-000100 )
-  (    2 N-000113 )
+  (    1 N-000109 )
+  (    2 N-000094 )
   (    3 N-000040 )
-  (    4 N-000095 )
-  (    5 N-000113 )
-  (    6 N-000100 )
+  (    4 N-000113 )
+  (    5 N-000094 )
+  (    6 N-000109 )
   (    7 N-000037 )
   (    8 N-000120 )
  )
  ( /4EC40B2A/4EC1E83F $noname  CP6 1uF {Lib=CP}
-  (    1 N-000111 )
+  (    1 N-000096 )
   (    2 N-000120 )
  )
  ( /4EC40B2A/4EC1E3A9 $noname  CP5 10uF {Lib=CP}
@@ -33,20 +33,20 @@
   (    2 GND )
  )
  ( /4EC40B2A/4EC1E36A $noname  CP10 1uF {Lib=CP}
-  (    1 N-000104 )
+  (    1 N-000106 )
   (    2 N-000101 )
  )
  ( /4EC40B2A/4EC1E369 $noname  CP9 1uF {Lib=CP}
-  (    1 N-000107 )
-  (    2 N-000102 )
+  (    1 N-000103 )
+  (    2 N-000100 )
  )
  ( /4EC40B2A/4EC1E364 $noname  CP12 220uF {Lib=CP}
-  (    1 N-000103 )
-  (    2 N-000097 )
+  (    1 N-000107 )
+  (    2 N-000108 )
  )
  ( /4EC40B2A/4EC1E360 $noname  CP11 220uF {Lib=CP}
-  (    1 N-000108 )
-  (    2 N-000109 )
+  (    1 N-000102 )
+  (    2 N-000098 )
  )
  ( /4EC40B2A/4EC1E359 $noname  CP4 10uF {Lib=CP}
   (    1 +3.3V )
@@ -65,7 +65,7 @@
   (    2 GND )
  )
  ( /4EC40B2A/4EC1E319 $noname  CP8 1uF {Lib=CP}
-  (    1 N-000106 )
+  (    1 N-000104 )
   (    2 N-000119 )
  )
  ( /4EC40B2A/4EC1E308 $noname  CP7 1uF {Lib=CP}
@@ -78,9 +78,9 @@
  )
  ( /4EC40B2A/4EBCF11C $noname  RV4 TRIM {Lib=POT}
   (  PAD ? )
-  (    1 N-000111 )
-  (    2 N-000112 )
-  (    3 N-000112 )
+  (    1 N-000096 )
+  (    2 N-000095 )
+  (    3 N-000095 )
  )
  ( /4EC40B2A/4EBCC549 $noname  C2 0.1uF {Lib=C}
   (    1 +3.3V )
@@ -103,7 +103,7 @@
   (    2 GND )
  )
  ( /4EC40B2A/4EBBFFEF $noname  R26 5k6 {Lib=R}
-  (    1 N-000100 )
+  (    1 N-000109 )
   (    2 N-000118 )
  )
  ( /4EC40B2A/4EBBFFA7 $noname  R29 5k6 {Lib=R}
@@ -123,16 +123,16 @@
   (    2 GND )
  )
  ( /4EC40B2A/4EBBEEEB $noname  R4 100 {Lib=R}
-  (    1 N-000110 )
+  (    1 N-000097 )
   (    2 N-000014 )
  )
  ( /4EC40B2A/4EBBEAED $noname  R19 47k {Lib=R}
-  (    1 N-000097 )
+  (    1 N-000108 )
   (    2 GND )
  )
  ( /4EC40B2A/4EBBEAE9 $noname  R18 47k {Lib=R}
   (    1 GND )
-  (    2 N-000109 )
+  (    2 N-000098 )
  )
  ( /4EC40B2A/4EBBEAE3 $noname  R17 47k {Lib=R}
   (    1 GND )
@@ -141,24 +141,24 @@
  ( /4EC40B2A/4E8AA4B8 $noname  WM1 WM8731 {Lib=WM8731}
   (  PAD GND )
   (    1 +3.3V )
-  (    2 N-000110 )
+  (    2 N-000097 )
   (    3 N-000055 )
   (    4 N-000056 )
   (    5 N-000022 )
   (    6 N-000021 )
   (    7 N-000022 )
   (    8 +3.3V )
-  (    9 N-000108 )
-  (   10 N-000103 )
+  (    9 N-000102 )
+  (   10 N-000107 )
   (   11 GND )
-  (   12 N-000107 )
-  (   13 N-000104 )
+  (   12 N-000103 )
+  (   13 N-000106 )
   (   14 +3.3V )
   (   15 GND )
   (   16 N-000115 )
-  (   17 N-000099 )
-  (   18 N-000112 )
-  (   19 N-000106 )
+  (   17 N-000110 )
+  (   18 N-000095 )
+  (   19 N-000104 )
   (   20 N-000105 )
   (   21 N-000026 )
   (   22 N-000051 )
@@ -170,24 +170,24 @@
   (   28 GND )
  )
  ( /4EC40B2A/4EBBD8D8 $noname  R27 5k6 {Lib=R}
-  (    1 N-000113 )
+  (    1 N-000094 )
   (    2 N-000119 )
  )
  ( /4EC40B2A/4EBBD73A $noname  R30 680 {Lib=R}
-  (    1 N-000095 )
-  (    2 N-000096 )
+  (    1 N-000113 )
+  (    2 N-000112 )
  )
  ( /4EC40B2A/4EBBD6A5 $noname  R16 47k {Lib=R}
   (    1 GND )
-  (    2 N-000102 )
+  (    2 N-000100 )
  )
  ( /4EC40B2A/4EBBD667 $noname  R6 100 {Lib=R}
   (    1 N-000101 )
-  (    2 N-000094 )
+  (    2 N-000099 )
  )
  ( /4EC40B2A/4EBBD659 $noname  R5 100 {Lib=R}
-  (    1 N-000102 )
-  (    2 N-000098 )
+  (    1 N-000100 )
+  (    2 N-000111 )
  )
  ( /4EC40B2A/4EBBCBD4 $noname  C4 0.1uF {Lib=C}
   (    1 +3.3V )
@@ -1160,74 +1160,74 @@ Net 65 "" ""
  P3 17
  U1 2
 Net 94 "" ""
+ U2 5
+ U2 2
+ R27 1
+Net 95 "" ""
+ RV4 2
+ RV4 3
+ WM1 18
+Net 96 "" ""
+ CP6 1
+ RV4 1
+Net 97 "" ""
+ R4 1
+ WM1 2
+Net 98 "" ""
+ U3 5
+ CP11 2
+ R18 2
+Net 99 "" ""
  U3 6
  U3 4
  R6 2
-Net 95 "" ""
- U2 4
- R30 1
-Net 96 "" ""
- JP1 2
- R30 2
-Net 97 "" ""
- U3 1
- CP12 2
- R19 1
-Net 98 "" ""
- U3 8
- U3 2
- R5 2
-Net 99 "" ""
- JP1 1
- WM1 17
 Net 100 "" ""
- U2 6
- U2 1
- R26 1
+ CP9 2
+ R16 2
+ R5 1
 Net 101 "" ""
  CP10 2
  R17 2
  R6 1
 Net 102 "" ""
- CP9 2
- R16 2
- R5 1
+ CP11 1
+ WM1 9
 Net 103 "" ""
- CP12 1
- WM1 10
+ CP9 1
+ WM1 12
 Net 104 "" ""
- CP10 1
- WM1 13
+ CP8 1
+ WM1 19
 Net 105 "" ""
  CP7 1
  WM1 20
 Net 106 "" ""
- CP8 1
- WM1 19
+ CP10 1
+ WM1 13
 Net 107 "" ""
- CP9 1
- WM1 12
+ CP12 1
+ WM1 10
 Net 108 "" ""
- CP11 1
- WM1 9
+ U3 1
+ CP12 2
+ R19 1
 Net 109 "" ""
- U3 5
- CP11 2
- R18 2
+ U2 6
+ U2 1
+ R26 1
 Net 110 "" ""
- R4 1
- WM1 2
+ JP1 1
+ WM1 17
 Net 111 "" ""
- CP6 1
- RV4 1
+ U3 8
+ U3 2
+ R5 2
 Net 112 "" ""
- RV4 2
- RV4 3
- WM1 18
+ JP1 2
+ R30 2
 Net 113 "" ""
- U2 5
- U2 2
- R27 1
+ U2 4
+ R30 1
 Net 115 "" ""
  CP5 1
  WM1 16
